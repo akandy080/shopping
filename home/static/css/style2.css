@@ -1,0 +1,194 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap'); */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* text-align: absolute; */
+    margin-top: 0;
+    color: darkgrey;
+    height: 3rem;
+    background-color: transparent;
+}
+
+.navbar-nav{
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item{
+    padding: 0.5rem;
+    /* text-align: right; */
+}
+
+.nav-item .nav-link{
+    color: orangered;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dropdown-menu{
+    background-color: white;
+    font-size: 14px;
+}
+
+.dropdown-menu:hover{
+    transition: ease-in;
+    color: orangered;
+}
+
+.navbar img{
+    padding: 1rem;
+    /* margin-top: 0.005rem; */
+}
+
+.carousel{
+    height: 100vh;
+    /* width: 50; */
+    justify-content: space-between;
+    border-color: aliceblue;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 97%);
+
+}
+
+.carousel button{
+    border-radius: 900%;
+}
+
+.prod span{
+    color: orangered;
+}
+
+.prod::after{
+    margin: auto;
+    margin-top: 12px;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 6rem;
+    border-radius: 1%;
+    background-color: orangered;
+    transform: translateX(10px);
+}
+
+.team::after{
+    margin: left;
+    margin-top: 12px;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 3rem;
+    border-radius: 1%;
+    background-color: orangered;
+    transform: translateX(10px);
+}
+
+.marguee{
+    rotate: repeat;
+    margin-right: 10rem;
+    padding-right: 15rem;
+    position: repeat;
+    transition: ease 1s;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-block-end: 8rem;
+    margin-block-start: 3rem;
+    transform: rotate3d(20px);
+}
+
+.footer2{
+    color: white;
+    background-color: black;
+    /* width: 100%; */
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    margin-top: 6rem;
+    text-align: left;
+    /* width: 100%; */
+    /* padding: 1rem; */
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+}
+
+/* .marguee{
+    margin-right: 8rem;
+    margin-left: 3rem;
+    padding-left: 8rem;
+    /* transition: auto; */
+    /* scroll-behavior: auto; */
+/* } */
+
+.combo img{
+    background-color: black;
+}
+
+.combo img:hover{
+    background-color: orangered;
+}
+.combo h5:hover{
+    color: orangered;
+    transition: ease 1s;
+}
+
+.ak{
+    clip-path: polygon(0 13%, 100% 2%, 100% 88%, 0 98%);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.proo:hover{
+    color: orangered;
+    transition: ease 1s;
+}
+
+.btn:hover{
+    background-color: orangered;
+    transition: ease 1s;
+}
+
+.container h5:hover{
+    color: orangered;
+    transition: 1s;
+}
+
+.combo img:hover{
+    background-color: orangered;
+    content: "";
+    display: 360%;
+    transform: translateX(15px)
+    /* clip-path: polygon(0 15%, 100% 3%, 100% 87%, 0 97%); */
+}
+
+.combo a .btn:hover{
+    color: orangered;
+    /* transition: 0ms; */
+}
+
+.combo img{
+    /* color: orange; */
+    border-radius: 900%;
+    width: 40px;
+    height: 65px;
+    /* background-color: wheat; */
+    /* border-color: none; */
+}
+
+.list-unstyled p:hover{
+    background-color: white;
+    transition: ease 1s;
+    color: orangered;
+}
+
+.carousel-indicators button{
+    border-radius: 900%;
+    height: 20px;
+    width: 35px;
+    color: orangered;
+}
+    
+.footer:hover{
+    transition: ease 1s;
+    background-color: none;
+}

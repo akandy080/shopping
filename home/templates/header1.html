@@ -1,0 +1,25 @@
+<div class="kelvin">
+    <div class="three-body">
+      <div class="three-body_dot"></div>
+      <div class="three-body_dot"></div>
+      <div class="three-body_dot"></div>
+    </div>
+  </div>
+  
+  <div class="container-fluid bg-light" id="backtop">
+      <div class="row mx-5">
+          <div class="col-6">Contact :+1 345 5785 5789</div>
+          <div class="col-6">Mail: info@yourenail.com</div>
+      </div>
+
+<div class="container">
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-warning alert-dismissible fade show shola w-100" role="alert">
+        <strong>{{message}}</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>
+  

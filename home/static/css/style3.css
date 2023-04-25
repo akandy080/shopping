@@ -1,0 +1,431 @@
+.navbar{
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    overflow: hidden;
+    text-align: justify;
+    z-index: 10;
+    background-color: darkgrey;
+    height: 5rem;
+}
+
+.navbar-nav{
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item{
+    padding: 0.5rem;
+}
+
+.nav-item .nav-link{
+    color: orangered;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.dropdown-menu{
+    /* background-color: white; */
+    /* text-decoration: orangered; */
+    font-size: 12px;
+} 
+
+/* .dropdown-menu:hover{
+    transition: 1s;
+    color: orangered;
+}  */
+
+.navbar img{
+    padding: 1rem;
+}
+
+.carousel{
+    clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
+    height: 100vh;
+    justify-content: space-between;
+    border-color: gray;
+    border-bottom: gray;
+}
+
+.carousel-control-prev{
+    font-size: .005rem;
+    color: grey;
+}
+.carousel-control-prev:hover{
+    font-size: 3rem;
+    color: orangered;
+}
+.carousel-control-next{
+    font-size: .005rem;
+    color: grey;
+}
+.carousel-control-next:hover{
+    font-size: 3rem;
+    color: orangered;
+}
+
+.carousel button{
+    /* border-radius: 90rem; */
+}
+
+.home::after{
+    /* margin: auto; */
+    margin-top: 6px;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 3rem;
+    border-radius: 1%;
+    background-color: orangered;
+    transform: translateY(3px);
+}
+.navbar li a:hover::after{
+    margin-top: 6px;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 5rem;
+    border-radius: 1%;
+    background-color: orangered;
+    transform: translateY(3px);
+    padding-right: 0.8rem;
+} 
+
+.carousel-caption{
+    padding-bottom: 6rem;
+}
+
+.carousel-indicators button{
+    border: none;
+    outline: none;
+    color: orangered;
+    background-color: orangered;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    margin-bottom: 5rem;
+}
+
+.carousel-indicators button:hover{
+    border: none;
+    outline: none;
+    color: orangered;
+    background-color: orangered;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+/* .cib{ */
+    /* margin-bottom: 7rem; */
+    /* border-radius: 7; */
+    /* outline: none; */
+    /* border: none; */
+    /* width: 90px; */
+    /* height: 90px; */
+    /* color: orangered; */
+
+/* } */
+
+.yeaa:hover img{
+    background-color: orangered;
+    transition: ease 1s;
+    transform: rotate(360deg);
+}
+
+.yeaa img{
+    background-color: black;
+    width: 90px;
+    height: 88px;
+    border-radius: 80px;
+}
+
+.yeaa img:hover{ 
+    background-color: orangered;
+    transition: ease 1s;
+    transform: rotate(360deg)
+}
+
+.yeaa:hover .coco{
+    background-color: orangered;
+    border: none;
+}
+
+.yeaa:hover .pro{
+    color: orangered;
+}
+
+.yea:hover img{
+    background-color: orangered;
+    transition: ease 1s;
+    transform: rotate(360deg)
+}
+.yea img{
+    background-color: black;
+    width: 90px;
+    height: 88px;
+    border-radius: 80px
+}
+
+.yea img:hover{ 
+    background-color: orangered;
+    transition: ease 1s;
+    transform: rotate(360deg)
+}
+
+
+.yea:hover .cocor{
+    background-color: orangered;
+    border: none;
+}
+
+.yea:hover .pror{
+    color: orangered;
+}
+
+.bee.btn{
+    /* color: orangered; */
+    border: none;
+}
+
+.bee.btn:hover{
+    background-color: orangered;
+    text-decoration: none;
+}
+
+
+
+/* .proo.span:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.proo:hover .span{
+    background-color: orange;
+    text-decoration: none;
+} */
+
+
+
+
+/* .coco{
+    color: white;
+} */
+
+.abc{
+    /* background-color: grey; */
+    /* width: 100%; */
+    /* background: 1rem; */
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    /* margin: 1rem; */
+    /* background-size: 100%; */
+    clip-path: polygon(0 11%, 100% 2%, 100% 91%, 0 100%);
+}
+
+.abc{
+    padding-top: 3rem;
+}
+
+.yea .coco{
+    /* color: white; */
+    border: none;
+    text-decoration: none;
+}
+.yea.coco:hover{
+    background-color: orangered;
+    text-decoration: none;
+}
+
+.pro h2{
+    color: orangered;
+    text-decoration: none;
+}
+
+.pro h2 :hover{
+    background-color: orangered;
+    text-decoration: none;
+}
+.prod span{
+    color: orangered;
+    text-decoration: none;
+    
+}
+
+
+.abc{
+    text-decoration: none;
+}
+
+.abc span{
+    text-decoration: none;
+}
+.ak span:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.ak:hover span{
+    color: orangered;
+    text-decoration: none;
+}
+
+
+.aka span:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.aka:hover:hover span{
+    color: orangered;
+    text-decoration: none;
+}
+
+.akaa span:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.akaa:hover span{
+    color: orangered;
+    text-decoration: none;
+}
+.akaan span:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.akaan:hover span{
+    color: orangered;
+    text-decoration: none;
+}
+.akann span:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.akann:hover span{
+    color: orangered;
+    text-decoration: none;
+}
+.akan span:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.akan:hover span{
+    color: orangered;
+    text-decoration: none;
+}
+
+/* .ak.prooo:hover{
+    text-decoration: none;
+}
+
+.ak:hover .prooo{
+    color: orangered;
+    text-decoration: none;
+} */
+
+.prod::after{
+    margin: auto;
+    margin-top: 12px;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 6rem;
+    border-radius: 1%;
+    background-color: orangered;
+    transform: translateX(20px);
+}
+.team::after{
+    margin: left;
+    margin-top: 12px;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 3rem;
+    border-radius: 1%;
+    background-color: orangered;
+    transform: translateX(20px);
+}
+
+.marguee{
+    rotate: repeat;
+    margin-right: 20rem;
+    padding-right: 90rem;
+    margin-left: 7rem;
+    /* padding-left: 7rem */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    transition: ease 1s;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* margin-block-end: 8rem; */
+    /* margin-block-start: 3rem; */
+    transform: translateX(20deg);
+}
+
+
+/* .ak .proo .btn:hover{
+    color: white;
+    text-decoration: none;
+} */
+
+.footer2{
+    color: white;
+    background-color: black;
+}
+
+.proo{
+    text-decoration: none;
+}
+.proo:hover{
+    color: orangered;
+    transition: ease 1s;
+    text-decoration: none;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: left;
+}
+.footer ul p:hover{
+    color: orangered;
+    transform: translateX(20px);
+
+
+}.footer2 a{
+    color: orangered;
+    /* position: fixed; */
+    /* background-color: white; */
+}
+
+.team .inline-list{
+    color: white;
+
+}
+.team li:hover{
+    color: orangered;
+
+}
+
+.footer ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(238, 96, 8);
+    font-size: 1rem;
+    transition: ease 1s;
+}
+
+.fa-brands{
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: ease 1s;
+    color: white;
+}
+
+.fa-brands:hover{
+    transform: translateX(5px);
+    color: orangered;
+}

@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} Signin{% endblock title %}
+
+{% block header1 %} {% include 'header1.html' %} {% endblock header1 %}
+
+{% block header %} {% include 'header.html' %}{% endblock header %}
+
+{% block carousel %} {% include 'carousel.html' %}{% endblock carousel %}
+
+{% block content %}
+
+<div class="container mt-5 mb-5">
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <img src="{% static '' %}img/partners p/sh14.jpg" class=" w-100 h-50" alt="">
+      </div>
+      <div class="col-12 col-md-5">
+          <h2 class="text-center">signin</h2>
+          <div class="cform">
+              <div class="ccform">
+                  <form action="{% url 'signin' %}" method="POST">
+                  {% csrf_token %}
+                      <div class="col-12 col-md-4">
+                          <div class="form-floating mb-3">
+                            <input type="text" name="username" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Username</label>
+                          </div>
+                      </div>
+                    
+                      <div class="col-12 col-md-6">
+                          <div class="form-floating mb-3 show-hide">
+                            <input type="password" name="password" class="form-control grab" id="floatingInput" placeholder="name@example.com">
+                            <div class="show">
+                              <i class="fa-solid fa-eye"></i>
+                              <!-- <i class="fa-solid fa-eye-slash"></i> -->
+                            </div>
+                            <label for="floatingInput">password</label>
+                          </div>
+                      </div>
+                     
+
+                      <button type="submit" class="btn btn-primary">signin</button>
+                      <a href="" class="btn btn-info">signup</a>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% endblock content %}
+
+
+
+{% block footer %} {% include 'footer.html' %}{% endblock footer %}
+
+
