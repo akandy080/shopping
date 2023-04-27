@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 
 :root{
     --body--: white;
@@ -15,11 +15,11 @@ body{
 
 .fa-moon{
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .fa-sun{
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .kevin{
@@ -30,24 +30,24 @@ body{
     background: #fff;
 }
 
-.shows-hide{
+.show-hide{
     position: relative;
 }
 
-.shows{
+.show{
     position: absolute;
     top: 1rem;
     left: 80%;
 }
 
-.shows .fa-eye{
+.show .fa-eye{
     display: none;
 }
 
-.shows .shower.fa-eye-slash{
+.show .shower.fa-eye-slash{
     display: block;
 }
-.shows .shower.fa-eye-slash{
+.show .shower.fa-eye-slash{
     display: none;
 }
 .three-body {
@@ -200,11 +200,9 @@ body{
     color: white;
     padding-top: 3rem;
 }
-
 html{
     scroll-behavior: smooth;
 }
-
 .cave ul li{
     text-decoration: none;
 }
