@@ -24,8 +24,9 @@ SECRET_KEY = 'django-insecure-^+4a%4!22v5p-2^0m#z&*+_cdgru98@sa3+r*1y1t*g_gt9c6g
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+# DEBUG = True
 
-ALLOWED_HOSTS = ['13.49.159.121', '*']
+ALLOWED_HOSTS = ['13.49.102.8', '*']
 
 
 # Application definition
@@ -79,7 +80,7 @@ WSGI_APPLICATION = 'shopping.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.console.sqlite3',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }

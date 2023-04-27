@@ -9,14 +9,14 @@ class Category(models.Model):
     img = models.ImageField(upload_to='Category', default='category.jpg')
     description = models.TextField()
 
-def _str_(self):
-    return self.title
+    def _str_(self):
+        return self.title
 
-class Meta:
-    db_table = 'category'
-    managed = True
-    verbose_name = 'Category'
-    verbose_name_plural = 'Category'
+    class Meta:
+        db_table = 'category'
+        managed = True
+        verbose_name = 'Category'
+        verbose_name_plural = 'Category'
 
 
 class Product(models.Model):
@@ -32,14 +32,14 @@ class Product(models.Model):
     date_uploaded = models.DateField(auto_now=True)
     date_updated = models.DateTimeField(auto_now=True)
 
-def _str_(self):
-    return self.title
+    def _str_(self):
+        return self.title
 
-class Meta:
-    db_table = 'category'
-    managed = True
-    verbose_name = 'Category'
-    verbose_name_plural = 'Category'
+    class Meta:
+        db_table = 'product'
+        managed = True
+        verbose_name = 'Product'
+        verbose_name_plural = 'Product'
 
 
 class Contact(models.Model):
