@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^+4a%4!22v5p-2^0m#z&*+_cdgru98@sa3+r*1y1t*g_gt9c6g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 
-ALLOWED_HOSTS = ['16.16.194.75', '*']
+ALLOWED_HOSTS = ['13.51.251.212', '*']
 
 
 # Application definition
@@ -78,23 +78,23 @@ WSGI_APPLICATION = 'shopping.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'elitedevdb',
-        'HOST': 'localhost',
-        'POST': '5432',
-        'USER': 'postgres',
-        'PASSWORD': 'donnaka1',
-        
-    }
-}
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'elitedevdb',
+#         'HOST': 'localhost',
+#         'POST': '5432',
+#         'USER': 'postgres',
+#         'PASSWORD': 'donnaka1',
+        
 #     }
 # }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 
 # Password validation
